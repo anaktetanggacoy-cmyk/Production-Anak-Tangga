@@ -1,0 +1,12 @@
+--- a/su_mcp/main.rb
++++ b/su_mcp/main.rb
+@@ -1853,7 +1853,9 @@
+     menu = UI.menu("Plugins").add_submenu("MCP Server")
+     menu.add_item("Start Server") { @server.start }
+     menu.add_item("Stop Server") { @server.stop }
+     
++    UI.start_timer(1.0, false) { @server.start }
++
+     file_loaded(__FILE__)
+   end
+ end 
