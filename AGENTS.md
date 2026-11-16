@@ -1,10 +1,10 @@
 # Anak Tangga operational agents
 
-Choose the workflow that matches the request.
-
 - [CAD Drafting](docs/cad-drafting-workflow.md) for native CAD work and SketchUp-to-CAD extraction.
-- [QC BoQ & RAB](docs/qc-boq-rab-workflow.md) for quantity and estimate reviews.
-- [Presentation AO](docs/presentation-ao-workflow.md) for direct SketchUp exports placed in Canva.
-- [Presentation Render](docs/presentation-render-workflow.md) for rendered SketchUp views placed in Canva.
+- [QC BoQ & RAB](docs/qc-boq-rab-workflow.md) for quantities and estimate reviews.
+- [APO](docs/presentation-ao-workflow.md) for direct exports or [APR](docs/presentation-render-workflow.md) for rendered views.
+- [API](docs/canva-insert-workflow.md) for Canva placement, then [APM](docs/canva-material-workflow.md) for materials, [APF](docs/canva-floor-plan-workflow.md) for plans and [APS](docs/canva-section-plan-workflow.md) for sections and final verification.
 
-For mixed requests, apply each guide to its part of the work. Confirm the live connection, target document, source revision and authorized scope before editing. Preserve source files and unrelated content. Record the basis of technical claims and verify saved outputs before handoff. Use project references as evidence within the user's requested scope.
+For a full presentation, carry one fresh Canva copy and one scene-to-page manifest through the stages. Run a single stage with verified upstream inputs when requested. Follow the requested final page order.
+
+Check the live connection and source revision before editing. Preserve source files and unrelated content, document the basis of technical claims, and verify saved outputs. See [MCP setup](docs/mcp-server-setup.md).
